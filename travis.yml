@@ -3,5 +3,5 @@ ox: linux
 language: cpp
 
 script:
--cmake --build .
+- cmake --build .
 - ./buildtest
