@@ -1,0 +1,7 @@
+dist: trusty
+ox: linux
+language: cpp
+
+script:
+-cmake --build .
+- ./buildtest
